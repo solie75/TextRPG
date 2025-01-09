@@ -30,3 +30,62 @@
 *.exe
 *.out
 *.app
+
+# 컴파일된 바이너리 및 임시 파일
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# 빌드 및 캐시 파일
+Build/ 
+.vscode/
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.usertasks
+
+# MacOS 관련 파일
+.DS_Store
+
+# Windows 관련 파일
+Thumbs.db
+
+# 프로젝트 설정 및 메타파일 캐시
+*.opensdf
+*.sdf
+*.log
+*.tlog
+*.cache
+*.ilk
+*.pdb
+
+# 자동 생성된 파일들
+*.Generated.*
+*.log
+*.tmp
+*.db
+
+# Unreal-specific 파일
+*.uasset
+*.umap
+
+# 플러그인 관련 임시 파일
+Plugins/**/Binaries/
+Plugins/**/Intermediate/
+
+# Build 제품물 (패키징된 파일들)
+Build/*
+!Build/Config/         # Config 폴더는 제외하지 않음
+!Build/Source/         # Source 폴더는 제외하지 않음
+
+# 커밋에 포함되지 않아야 하는 설정 파일
+*.ini
+!Config/Default*.ini   # Default 설정 파일은 포함
+Config/DefaultEditor.ini  # 환경 설정은 제외 (개인화 가능성)
+
+# Git 관련
+.git/
+
