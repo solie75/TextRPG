@@ -69,8 +69,8 @@ Thumbs.db
 *.db
 
 # Unreal-specific 파일
-*.uasset
-*.umap
+# *.uasset
+# *.umap
 
 # 플러그인 관련 임시 파일
 Plugins/**/Binaries/
@@ -82,7 +82,7 @@ Build/*
 !Build/Source/         # Source 폴더는 제외하지 않음
 
 # 커밋에 포함되지 않아야 하는 설정 파일
-*.ini
+# *.ini
 !Config/Default*.ini   # Default 설정 파일은 포함
 Config/DefaultEditor.ini  # 환경 설정은 제외 (개인화 가능성)
 
