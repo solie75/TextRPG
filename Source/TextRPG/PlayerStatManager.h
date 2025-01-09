@@ -14,4 +14,6 @@ class TEXTRPG_API UPlayerStatManager : public UObject
 {
 	GENERATED_BODY()
 	
+public:
+	int testInt = 3;
 };
