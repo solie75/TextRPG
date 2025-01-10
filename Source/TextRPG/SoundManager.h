@@ -4,17 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "Manager.h"
-#include "ShopManager.generated.h"
+#include "SoundManager.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class TEXTRPG_API UShopManager : public UManager
+class TEXTRPG_API USoundManager : public UManager
 {
 	GENERATED_BODY()
-
-	int32 test;
-	int32 test2;
 	
 };

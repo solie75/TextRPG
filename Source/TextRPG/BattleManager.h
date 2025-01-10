@@ -3,16 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
-#include "PlayerInventoryManager.generated.h"
+#include "Manager.h"
+#include "BattleManager.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class TEXTRPG_API UPlayerInventoryManager : public UObject
+class TEXTRPG_API UBattleManager : public UManager
 {
 	GENERATED_BODY()
 	
-	int item123;
 };

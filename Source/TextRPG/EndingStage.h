@@ -3,18 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Manager.h"
-#include "ShopManager.generated.h"
+#include "Stage.h"
+#include "EndingStage.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class TEXTRPG_API UShopManager : public UManager
+class TEXTRPG_API UEndingStage : public UStage
 {
 	GENERATED_BODY()
-
-	int32 test;
-	int32 test2;
 	
 };

@@ -3,17 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "UObject/NoExportTypes.h"
-#include "PlayerStatManager.generated.h"
+#include "Stage.h"
+#include "StartStage.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class TEXTRPG_API UPlayerStatManager : public UObject
+class TEXTRPG_API UStartStage : public UStage
 {
 	GENERATED_BODY()
 	
-	//jbk_test_create
-
 };
