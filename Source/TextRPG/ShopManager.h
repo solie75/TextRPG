@@ -15,5 +15,6 @@ class TEXTRPG_API UShopManager : public UObject
 	GENERATED_BODY()
 
 	int32 test;
+	int32 test2;
 	
 };
