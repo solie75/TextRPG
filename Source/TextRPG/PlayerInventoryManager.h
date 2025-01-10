@@ -15,4 +15,6 @@ class TEXTRPG_API UPlayerInventoryManager : public UObject
 	GENERATED_BODY()
 	
 	FString item;
+
+	FString item2;
 };
